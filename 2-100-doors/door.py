@@ -8,3 +8,6 @@ class Door:
 
     def toggle(self):
         self.is_open = not self.is_open
+
+    def __str__(self):
+        print(str(self.id) + ": " + str(self.is_open))
